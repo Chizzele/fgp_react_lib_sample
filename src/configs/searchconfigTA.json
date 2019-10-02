@@ -44,8 +44,8 @@
     "locationColumns":["icpLat","icpLng"] ,
     "customer": "icpNumber",
     "reference":"icp_reference",
-    "defaultQtyRecordsToRetrieve" : 999999,
-    "defaultStartFrom" : 0,
+    "defaultQtyRecordsToRetrieve" : 125,
+    "startFrom" : 0,
     "searchDirection" : "%20asc",
     "hz": false,
     "map":{
