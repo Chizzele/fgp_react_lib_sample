@@ -1,0 +1,32 @@
+{
+    "excludedColumns" : [
+        "lng",
+        "lat",
+        "latPrimitive",
+        "lngPrimitive",
+        "timestamp",
+        "icpNumber",
+        "deviceName"
+    ],
+    "mutatedColumns" : [
+        {
+            "key" : "effectiveDate",
+            "style" : "datetime"
+        }
+    ],
+    "redirectColumns" : [
+
+    ],
+    "relation_excludedColumns" : [
+        
+    ],
+    "relation_mutatedColumns" : [
+
+    ],
+    "relation_redirectColumns" : [
+
+    ],
+    "relation_renameColumns" : [
+
+    ]
+}

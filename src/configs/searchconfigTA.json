@@ -1,6 +1,6 @@
 {
     "columns": [
-        {"accessor":"icpNumber", "Header":"ICP", "minWidth" : 210, "fgpRedirect" : "/ICP/"}
+        {"accessor":"icpNumber", "Header":"ICP", "minWidth" : 210, "fgpRedirect" : "/icp/"}
     ],
     "searchingColumns": [{
         "column": "icpNumber",
