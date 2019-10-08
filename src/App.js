@@ -2,6 +2,12 @@ import React from 'react';
 import './App.css'; 
 import  {RouteWrap, Page, DevicePage, Navigation, Search, DeviceWidget} from '@chizzele-/fgp_react_lib';
 import logo from './logo.svg';
+import circuitImg from './images/circuit.png';
+import feederImg from './images/feeder.png';
+import gxpImg from './images/gxp.png';
+import icpImg from './images/circuit.png';
+import substationImg from './images/substation.png';
+import transformerImg from './images/transformer.png';
 import searchConfig from './configs/searchconfigTA.json';
 import Welcome from './Welcome';
 import icpConfig from './configs/icpWidgetProcessorConfig.json'
@@ -85,7 +91,10 @@ function App() {
           mapType={"basic"}
           mapProjection={"EPSG:4326"}
           hasBreadCrumbs={true}
-          breadCrumbPath={"icp->lv_circuit->transformer->feeder->zone_sub->gxp"}
+          breadCrumbPath={"icp->lvcircuit|->transformer->feeder->zonesub->gxp"}
+          breadCrumbDeviceTypes={["icp", "lv_circuit","transformer", "feeder", "zone_sub", "gxp"]}
+          breadCrumbDeviceImages={[icpImg, circuitImg, transformerImg, feederImg, substationImg, gxpImg]}
+          breadCrumbDeviceUrlPaths={["icp","lvc","transformer","feeder","zone_sub","gxp"]}
         >
           <Navigation
             topNavTitle={"Compass - icp"}
