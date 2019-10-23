@@ -1,0 +1,8 @@
+{
+    "columns": [
+        {"accessor":"componentserialno", "Header":"Serial Number", "minWidth" : 210, "fgpRedirect" : "/meter/"},
+        {"accessor":"make", "Header":"Make", "minWidth" : 210},
+        {"accessor":"model", "Header":"Model", "minWidth" : 210},
+        {"accessor":"macAddress", "Header":"Mac Address", "minWidth" : 210}
+    ]
+}

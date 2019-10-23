@@ -1,0 +1,9 @@
+{
+    "columns": [
+        {"accessor":"icpNumber", "Header":"ICP Number", "minWidth" : 210, "fgpRedirect" : "/icp/"},
+        {"accessor":"status", "Header":"Status", "minWidth" : 210},
+        {"accessor":"anzsic", "Header":"Anzsic Code", "minWidth" : 210},
+        {"accessor":"monthlyMeters", "Header":"Monthly Meters", "minWidth" : 210},
+        {"accessor":"smartMeters", "Header":"Smart Meters", "minWidth" : 210}
+    ]
+}

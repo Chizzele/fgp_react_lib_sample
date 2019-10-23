@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './myfile.css'
+import {Navigation} from '@chizzele-/fgp_react_lib'
 export class MyTest extends Component {
     constructor(props){
         super(props)
@@ -10,8 +11,14 @@ export class MyTest extends Component {
     }
     render() {
         return (
-            <div className={"fgReact_home"}>
-                Hello world : heres the prop m8 {this.props.myProp}
+            <div className={""}>
+            <Navigation
+                isOpen={this.props.isOpen}
+                topNavTitle={"Compass - Operations links"}
+                sideNavLogo={this.props.logo}
+                currentPage={"/operations"}
+                items={this.props.navItems}
+            />
             </div>
         )
     }

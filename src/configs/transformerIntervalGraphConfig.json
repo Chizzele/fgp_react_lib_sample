@@ -1,0 +1,39 @@
+{
+    "rangeCollection" : {
+        "label": "transformer_interval",
+        "name": "transformer_interval",
+        "interval": 3600000,
+        "series": [
+            {
+                "label": "Consumption",
+                "type": "line",
+                "exp": "data.consumptionKw"
+            }
+        ]
+    },
+    "collections" : [
+        {
+            "name": "transformer_interval",
+            "label" : "transformer_interval",
+            "interval": 600000,
+            "series": [
+            {
+                "color": "#ff0018",
+                "label": "consumption(kW)",
+                "exp": "data.consumptionKw",
+                "yIndex" : "left",
+                "type": "line"
+            }],
+            "threshold": { "min": 0, "max": 172800000},
+            "yLabel": "kW",
+            "y2Label": "amps",
+            "initScales": { "left": { "min": -10," max": 300 }},
+            "fill": false
+        }
+    ],
+    "ranges": [
+        { "name": "2 days", "value": 172800000, "show": true },
+        { "name": "1 week", "value": 604800000 }
+    ]
+
+}

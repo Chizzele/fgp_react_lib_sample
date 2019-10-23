@@ -1,0 +1,89 @@
+{
+    "rangeCollection": {
+        "label" : "transformer_reading_hour",
+        "name" : "transformer_reading_hour",
+        "interval" : 3600000,
+        "series" : [
+            {
+                "label": "Avg",
+                "type": "line",
+                "exp": "data.voltageAvg"
+            }
+        ]
+    },
+    "collections" : [
+        {
+            "label" : "transformer_reading",
+            "name" : "transformer_reading",
+            "interval" : 600000,
+            "series" : [
+                {
+                    "label" : "Voltage Avg",
+                    "type" : "line",
+                    "exp" : "data.voltageAvg",
+                    "yIndex" : "left",
+                    "color" : "#058902"
+                },
+                {
+                    "label" : "Current Avg",
+                    "type" : "line",
+                    "exp" : "data.currentAvg",
+                    "yIndex" : "right",
+                    "color" : "#d80808"
+                }
+            ],
+            "threshold" : { "min" : 0, "max" : 172800000 },
+            "yLabel": "voltage",
+            "y2Label": "amps",
+            "initScales": { "left": { "min": 150, "max": 300 }, "right": { "min": -10, "max": 270} },
+            "fill": false
+        },
+        {
+            "label": "transformer_reading_hour",
+            "name": "transformer_reading_hour",
+            "interval": 3600000,
+            "series": [
+                {
+                    "label": "Voltage Avg",
+                    "type": "line",
+                    "exp": "data.voltageAvg",
+                    "yIndex": "left",
+                    "color": "#058902"
+                },
+                {
+                    "label": "Current Avg",
+                    "type": "line",
+                    "exp": "data.currentAvg",
+                    "yIndex": "right",
+                    "color": "#d80808"
+                }
+            ],
+            "threshold": {
+                "min": 172800000,
+                "max": 314496000000
+            },
+            "yLabel": "voltage",
+            "y2Label": "amps",
+            "initScales": { 
+                "left": {
+                    "min": 150, "max": 300 
+                }, 
+                "right": { 
+                    "min": -10, 
+                    "max": 270} 
+                },
+            "fill": false
+        }
+    ],
+    "ranges": [
+        { 
+            "name" : "2 days", 
+            "value" : 172800000, 
+            "show": true 
+        },
+        { 
+            "name": "1 week", 
+            "value": 604800000 
+        }
+    ]
+}

@@ -1,0 +1,242 @@
+[{
+    "position": "0-0",
+    "category": [{
+        "label": "Regulatory",
+        "links": [{
+                "name": "RIN 5.2 asset age profiles 2017",
+                "desc": "tableau server",
+                "link": "http://wpreip001:8000/#/site/CARIN/views/RINAgeProfiles5_2-AgeProfiles/Dashboard-RINAgeProfiles5_2"
+            },
+            {
+                "name": "RIN 2.5 new connections",
+                "desc": "tableau server",
+                "link": "http://wpreip001:8000/#/site/CARIN/workbooks/1052/views"
+            },
+            {
+                "name": "RIN annual capex 8.2.1 - SCS",
+                "desc": "tableau server",
+                "link": "http://wpreip001:8000/#/site/CARIN/views/AnnualRINdata8_2_1and8_2_3/RIN8_2_1Dashboard"
+            },
+            {
+                "name": "RIN annual capex 8.2.3 - ACS",
+                "desc": "tableau server",
+                "link": "http://wpreip001:8000/#/site/CARIN/views/AnnualRINdata8_2_1and8_2_3/RIN8_2_3Dashboard"
+            },
+            {
+                "name": "RIN 2.2 repex (replacement expenditure)",
+                "desc": "tableau server",
+                "link": "http://wpreip001:8000/#/site/CARIN/views/2_2RepexTab-Table2_2_1/2_2_1Dashboard"
+            },
+            {
+                "name": "RIN 2.8 maintenance",
+                "desc": "tableau server",
+                "link": "http://wpreip001:8000/#/site/CARIN/views/RINTable2_8_2and2_12breakdown/RINTable2_8_2"
+            },
+            {
+                "name": "RIN 2.8 maintenance input tables",
+                "desc": "tableau server",
+                "link": "http://wpreip001:8000/#/site/CARIN/views/RINTable2_8_2and2_12breakdown/RIN2_12Resultfor2_8_2"
+            }
+        ]
+    }]
+},
+{
+    "position": "0-1",
+    "category": [{
+        "label": "Application",
+        "links": [{
+                "name": "network viewer",
+                "desc": "network viewer",
+                "link": "https://wprntv001.domain.prd.int/login"
+            },
+            {
+                "name": "network viewer (dev)",
+                "desc": "network viewer",
+                "link": "http://wdvntv002.domain.dev.int/login"
+            }
+        ]
+    }, {
+        "label": "Asset Health",
+        "links": [{
+                "name": "crossarm CBRM",
+                "desc": "tableau server",
+                "link": "http://wdvgeo001.domain.dev.int/#/views/CBRM_DASHBAORD/CBRMOverview"
+            }]
+    }, {
+        "label": "HSE",
+        "links": [{
+            "name": "SF6 emissions",
+            "desc": "tableau server",
+            "link": "http://wpreip001:8000/#/site/CARIN/workbooks/973/views"
+        }]
+    }]
+},
+{
+    "position": "0-2",
+    "category": [
+    {
+        "label": "LV Planning",
+        "links": [{
+              "name": "LV Fuse Size Dashboard",
+              "desc": "tableau server",
+              "link": "http://wpreip001:8000/#/views/LVFuseSizes/LVFuseSizes?:iid=3"
+            },{
+                "name": "solar export",
+                "desc": "tableau server",
+                "link": "http://wdvgeo001.domain.dev.int/#/views/Solar_dashboard_0/Intro"
+            },
+            {
+                "name": "NLM long term forecast",
+                "desc": "tableau server",
+                "link": "http://wdvgeo001.domain.dev.int/#/views/NLMForecast-Longterm/NLMLongTermDash"
+            },
+            {
+                "name": "NLM short term forecast",
+                "desc": "tableau server",
+                "link": "http://wdvgeo001.domain.dev.int/#/views/NLMForecast-Shortterm/NLMSubDashboard"
+            }
+        ]
+    }, {
+        "label": "Meter Profile",
+        "links": [{
+                "name": "address waveform",
+                "desc": "network analytics rstudio connect",
+                "link": "http://odrnac001.domain.prd.int:3939/address_waveform/"
+            },
+            {
+                "name": "device events",
+                "desc": "network analytics rstudio connect",
+                "link": "http://odrnac001.domain.prd.int:3939/device_events/"
+            },
+            {
+                "name": "device waveform",
+                "desc": "network analytics rstudio connect",
+                "link": "http://odrnac001.domain.prd.int:3939/device_waveform/"
+            }
+        ]
+    }]
+}, {
+    "position": "1-0",
+    "category": [{
+        "label": "Data Quality",
+        "links": [{
+                "name": "pole data quality",
+                "desc": "tableau server",
+                "link": "http://wpreip001:8000/#/site/CARIN/views/Poles-DataQualityDashboard_0/PoleDataQualityDashboard"
+            },
+            {
+                "name": "pole data quality (service delivery related)",
+                "desc": "tableau server",
+                "link": "http://wpreip001:8000/#/site/CARIN/views/Poles-DataQualityDashboard-ServiceDeliveryRelatedREV5/PoleDataQualityDashboard?:iid=15"
+            },
+            {
+                "name": "notification sort field vs. pole superior functional location",
+                "desc": "tableau server",
+                "link": "http://wpreip001:8000/#/site/CARIN/views/NotificationSortFieldversusPoleSuperiorFunctionalLocationcheck/SuperiorFunctionalLocationCheck?:iid=17"
+            },
+            {
+                "name": "supply point data quality",
+                "desc": "tableau server",
+                "link": "http://wpreip001:8000/#/site/CARIN/views/SupplyPointsConnectionObjectsDataQualityDashboard/SupplyPointsDataQualityDashboard?:iid=3"
+            },
+            {
+                "name": "supply point address data quality",
+                "desc": "tableau server",
+                "link": "http://wpreip001:8000/#/site/CARIN/views/Addressvalidations/AddressDashboard?:iid=1"
+            },
+            {
+                "name": "switch data quality",
+                "desc": "tableau server",
+                "link": "http://wpreip001:8000/#/site/CARIN/views/SwitchesDataQualityDashboard_0/SwitchesDataQualityDashboard"
+            },
+            {
+                "name": "transformer data quality",
+                "desc": "tableau server",
+                "link": "http://wpreip001:8000/#/site/CARIN/views/TransformersDataQualityDashboard_0/TransformersDataQuality"
+            },
+            {
+                "name": "all asset data quality",
+                "desc": "tableau server",
+                "link": "http://wpreip001:8000/#/site/CARIN/views/Allassets-DataQualityDashboardProduction/AssetsDataQuality"
+            }
+        ]
+    }]
+}, {
+    "position": "1-1",
+    "category": [{
+        "label": "Voltage Management",
+        "links": [{
+                "name": "substation voltage waveforms",
+                "desc": "network analytics rstudio connect",
+                "link": "http://odrnac001.domain.prd.int:3939/substation_phase_waveform/"
+            },
+            {
+                "name": "substation voltage waveforms 2",
+                "desc": "python dashboard",
+                "link": "http://odrnac001.domain.prd.int:11000/datahost/waveform"
+            },
+            {
+                "name": "ZSS voltage histogram",
+                "desc": "network analytics rstudio connect",
+                "link": "http://odrnac001.domain.prd.int:3939/zone_substation_histogram/"
+            },
+            {
+                "name": "ZSS voltage movie creator",
+                "desc": "network analytics rstudio connect",
+                "link": "http://odrnac001.domain.prd.int:3939/zonesub_movie_creator/"
+            },
+            {
+                "name": "management reporting dashboard for steady state voltage",
+                "desc": "tableau server",
+                "link": "http://wdvgeo001.domain.dev.int/#/views/ManagementReportingDashboardforSteadyStateVoltage/Network"
+            },
+            {
+                "name": "orange pages: power quality",
+                "desc": "network analytics RTV",
+                "link": "http://wprrtv001.domain.prd.int:82/power/"
+            }
+        ]
+    },{
+        "label": "Look Up",
+        "links": [{
+            "name": "orange pages: device lookup",
+            "desc": "network analytics RTV",
+            "link": "http://wprrtv001.domain.prd.int:82/Device_lookup/"
+        }]
+    }]
+}, {
+    "position": "1-2",
+    "category": [{
+        "label": "Consumption",
+        "links": [{
+                "name": "substation consumption",
+                "desc": "python dashboard",
+                "link": "http://odrnac001.domain.prd.int:11000/datahost/consumption"
+            },
+            {
+                "name": "nmi consumption",
+                "desc": "python dashboard",
+                "link": "http://odrnac001.domain.prd.int:11000/datahost/nmi-consumption"
+            }
+        ]
+    },{
+        "label": "GIS reference data",
+        "links": [{
+                "name": "zone substation feeder coverage map",
+                "desc": "EN sharepoint",
+                "link": "http://uenetwork.domain.prd.int/AssetPlanning/InformationSystems/AssetInfoSystems/GIS/PLOTS/UE%20ZONE%20SUBS.pdf"
+            },
+            {
+                "name": "AM/FM network reports",
+                "desc": "iview",
+                "link": "https://iview.domain.prd.int:8443/amfm/amfm_reports/index.xml"
+            }
+        ]
+    }]
+}
+]
+
+
+
+
+

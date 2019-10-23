@@ -1,0 +1,27 @@
+{
+    "searchingTables" : [
+        {
+            "tableName" : "transformer_event",
+            "dropdownLabel" : "Transformer Events",
+            "isTs" : true,
+            "deviceType" : "transformer",
+            "columnsToShow" : [
+                {"accessor":"eventTs", "Header":"Event Date", "minWidth" : 210, "fgpMutate" : "date", "fgpMutateConfig" : "ll"},
+                {"accessor":"isOpen", "Header":"Is Open", "minWidth" : 210},
+                {"accessor":"eventType", "Header":"Event Type", "minWidth" : 210},
+                {"accessor":"eventType", "Header":"Event Type", "minWidth" : 210},
+                {"accessor":"eventType", "Header":"Event Type", "minWidth" : 210}
+                
+            ]
+        },
+        {
+            "tableName" : "transformer_voltage_event",
+            "dropdownLabel" : "Transformer Voltage Events",
+            "isTs" : true,
+            "deviceType" : "transformer",
+            "columnsToShow" : [
+                {"accessor":"voltageAAvg", "Header":"Voltage A Average", "minWidth" : 210}
+            ]
+        }
+    ]
+}

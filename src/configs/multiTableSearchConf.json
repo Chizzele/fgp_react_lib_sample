@@ -1,0 +1,78 @@
+{
+    "searchingTables" : [
+        {
+            "tableName" : "site_constraint_exceeded_excursion_day",
+            "dropdownLabel" : "Site constraint exceeded",
+            "isTs" : true,
+            "deviceType" : "nmi" 
+        },
+        {
+            "tableName" : "site_voltage_over_253_excursion_day",
+            "dropdownLabel" : "Site voltage over 253",
+            "isTs" : true,
+            "deviceType" : "nmi" 
+        },
+        {
+            "tableName" : "site_voltage_over_258_excursion_day",
+            "dropdownLabel" : "Site voltage over 258",
+            "isTs" : true,
+            "deviceType" : "nmi" 
+        },
+        {
+            "tableName" : "site_voltage_under_216_excursion_day",
+            "dropdownLabel" : "Site voltage under 216",
+            "isTs" : true,
+            "deviceType" : "nmi" 
+        },
+        {
+            "tableName" : "tx_voltage_over_253_excursion_day",
+            "dropdownLabel" : "Tx voltage over 253",
+            "isTs" : true,
+            "deviceType" : "transformer_phase" 
+        },
+        {
+            "tableName" : "tx_voltage_under_216_excursion_day",
+            "dropdownLabel" : "Tx voltage under 216",
+            "isTs" : true,
+            "deviceType" : "transformer_phase" 
+        },
+        {
+            "tableName" : "tx_kva_excursion_day",
+            "dropdownLabel" : "Tx kva",
+            "isTs" : true,
+            "deviceType" : "transformer_phase" 
+        },
+        {
+            "tableName" : "tx_thd_excursion_day",
+            "dropdownLabel" : "Tx thd",
+            "isTs" : true,
+            "deviceType" : "transformer_phase" 
+        }
+    ],
+
+    "searchingColumns": [{
+        "column": "icpNumber",
+        "label":"ICP"
+    }],
+
+    "searchingTypes": [
+        {
+            "key": "<=?",
+            "label": "Less Than or Equal To"
+        },{
+            "key": ">=?",
+            "label": "Greater Than or Equal To"
+        }
+    ],
+
+    "locationColumns":["icpLat","icpLng"] ,
+    "customer": "icpNumber",
+    "reference":"icp_reference",
+    "defaultQtyRecordsToRetrieve" : 125,
+    "startFrom" : 0,
+    "searchDirection" : "%20asc",
+    "hz": false,
+    "map":{
+        "centre" : [-37.569041,175.148775]
+    }
+}

@@ -1,12 +1,39 @@
 {
     "columns": [
-        {"accessor":"icpNumber", "Header":"ICP", "minWidth" : 210, "fgpRedirect" : "/icp/"}
+        {"accessor":"icpNumber", "Header":"ICP", "minWidth" : 210, 
+            "fgpRedirect" : "/icp/"
+
+        },
+        {"accessor":"lvCircuit", "Header":"Normal Redirect", "minWidth" : 210, 
+            "fgpRedirect" : "/transformer/"
+        },
+        {"accessor":"lvCircuit", "Header":"Mutate value, redirect normal", "minWidth" : 210, 
+            "fgpRedirect" : "/transformer/",
+            "fgpValueMutate" : "-" ,
+            "fgpValueMutateIndex" : 1
+        },
+        {"accessor":"lvCircuit", "Header":"Mutate redirect, normal value", "minWidth" : 210, 
+            "fgpRedirect" : "/transformer/",
+            "fgpRedirectMutate" : "-" ,
+            "fgpRedirectMutateIndex" : 1
+        },
+        {"accessor":"lvCircuit", "Header":"Mutate Redirect, Mutate Value", "minWidth" : 210, 
+            "fgpRedirect" : "/transformer/",
+            "fgpValueMutate" : "-" ,
+            "fgpValueMutateIndex" : 1,
+            "fgpRedirectMutate" : "-" ,
+            "fgpRedirectMutateIndex" : 0
+        },
+
+        
+        {"accessor":"txRating", "Header":"Tx Rating", "minWidth" : 210 }
+
     ],
     "searchingColumns": [{
         "column": "icpNumber",
         "label":"ICP"
     }],
-
+        
     "searchingTypes": [
         {
             "key": "==*?*",

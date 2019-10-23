@@ -1,0 +1,112 @@
+{
+    "searchingReferences" : [
+        {
+            "referenceName" : "tx_voltage_over_253_excursion_day",
+            "dropdownLabel" : "Tx voltage over 253",
+            "startTimeStampColumn" : "excursionTs",
+            "endTimeStampColumn" : "excursionTs",
+            "columnsToShow" : [
+                {"accessor":"excursionTs", "Header":"Excursion Date", "minWidth" : 210, "fgpMutate":  "date" , "fgpMutateConfig":"ll"},
+                {"accessor":"deviceName", "Header":"Transformer Name", "minWidth" : 210, "fgpValueMutate" : "_" ,  "fgpRedirect" : "/transformer/", "fgpMutateRedirect" : "_" },
+                {"accessor":"deviceName", "Header":"Phase Name", "minWidth" : 210 },
+                {"accessor":"deviceType", "Header":"Device Type", "minWidth" : 210},
+                {"accessor":"excursionType", "Header":"Excursion Type", "minWidth" : 210}
+
+            ],
+            "noOfRecords" : 125
+        },
+        {
+            "referenceName" : "site_constraint_exceeded_excursion_day",
+            "dropdownLabel" : "Site constraint exceeded",
+            "startTimeStampColumn" : "excursionTs",
+            "endTimeStampColumn" : "excursionTs",
+            "columnsToShow" : [
+                {"accessor":"eventType", "Header":"Event Type", "minWidth" : 210}                
+            ],
+            "noOfRecords" : 125
+        },
+        {
+            "referenceName" : "site_voltage_over_253_excursion_day",
+            "dropdownLabel" : "Site voltage over 253",
+            "startTimeStampColumn" : "excursionTs",
+            "endTimeStampColumn" : "excursionTs",
+            "columnsToShow" : [
+                {"accessor":"deviceName", "Header":"Device Name", "minWidth" : 210},
+                {"accessor":"deviceType", "Header":"Device Type", "minWidth" : 210},
+                {"accessor":"excursionType", "Header":"Excursion Type", "minWidth" : 210}
+                
+            ],
+            "noOfRecords" : 125
+        },
+        {
+            "referenceName" : "site_voltage_over_258_excursion_day",
+            "dropdownLabel" : "Site voltage over 258",
+            "startTimeStampColumn" : "excursionTs",
+            "endTimeStampColumn" : "excursionTs",
+            "columnsToShow" : [
+                {"accessor":"deviceName", "Header":"Device Name", "minWidth" : 210},
+                {"accessor":"deviceType", "Header":"Device Type", "minWidth" : 210},
+                {"accessor":"excursionType", "Header":"Excursion Type", "minWidth" : 210}
+                
+            ],
+            "noOfRecords" : 125
+            
+        },
+        {
+            "referenceName" : "site_voltage_under_216_excursion_day",
+            "dropdownLabel" : "Site voltage under 216",
+            "startTimeStampColumn" : "excursionTs",
+            "endTimeStampColumn" : "excursionTs",
+            "columnsToShow" : [
+                {"accessor":"deviceName", "Header":"Device Name", "minWidth" : 210},
+                {"accessor":"deviceType", "Header":"Device Type", "minWidth" : 210},
+                {"accessor":"excursionType", "Header":"Excursion Type", "minWidth" : 210}
+                
+
+            ],
+            "noOfRecords" : 125
+        },
+        {
+            "referenceName" : "tx_voltage_under_216_excursion_day",
+            "dropdownLabel" : "Tx voltage under 216",
+            "startTimeStampColumn" : "excursionTs",
+            "endTimeStampColumn" : "excursionTs",
+            "columnsToShow" : [
+                {"accessor":"deviceName", "Header":"Device Name", "minWidth" : 210},
+                {"accessor":"deviceType", "Header":"Device Type", "minWidth" : 210},
+                {"accessor":"excursionType", "Header":"Excursion Type", "minWidth" : 210}
+                
+
+            ],
+            "noOfRecords" : 125
+        },
+        {
+            "referenceName" : "tx_kva_excursion_day",
+            "dropdownLabel" : "Tx kva",
+            "startTimeStampColumn" : "excursionTs",
+            "endTimeStampColumn" : "excursionTs",
+            "columnsToShow" : [
+                {"accessor":"deviceName", "Header":"Device Name", "minWidth" : 210},
+                {"accessor":"deviceType", "Header":"Device Type", "minWidth" : 210},
+                {"accessor":"excursionType", "Header":"Excursion Type", "minWidth" : 210}
+                
+
+            ],
+            "noOfRecords" : 125
+        },
+        {
+            "referenceName" : "tx_thd_excursion_day",
+            "dropdownLabel" : "Tx thd",
+            "startTimeStampColumn" : "excursionTs",
+            "endTimeStampColumn" : "excursionTs",
+            "columnsToShow" : [
+                {"accessor":"deviceName", "Header":"Device Name", "minWidth" : 210},
+                {"accessor":"deviceType", "Header":"Device Type", "minWidth" : 210},
+                {"accessor":"excursionType", "Header":"Excursion Type", "minWidth" : 210}
+                
+
+            ],
+            "noOfRecords" : 125
+        }
+    ]
+}
