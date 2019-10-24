@@ -32,6 +32,9 @@
     "searchingColumns": [{
         "column": "icpNumber",
         "label":"ICP"
+    },{
+        "column": "all",
+        "label": "ALL"
     }],
         
     "searchingTypes": [
